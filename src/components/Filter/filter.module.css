@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}

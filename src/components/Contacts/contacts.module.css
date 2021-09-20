@@ -1,0 +1,25 @@
+.list {
+  padding-bottom: 40px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  margin-right: 10px;
+}
+
+.button {
+  width: 70px;
+  height: 20px;
+  background-color: #f13636;
+  color: rgb(255, 250, 249);
+  border: 1px solid rgba(221, 9, 9, 0.904);
+  border-radius: 5px;
+}
